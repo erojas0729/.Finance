@@ -11,7 +11,7 @@ from IPython.display import HTML
 st.set_page_config(page_title=".Finance", layout="wide")
 st.title(".Finance")
 
-ruta = Path(__file__).with_name("Finance_Spa_Planificador_v2_(1)(1).ipynb")
+ruta = Path(__file__).with_name("Finance_Spa_Planificador_v2_(1).ipynb")
 if not ruta.is_file():
     st.error(f"Sube {ruta.name} a la misma carpeta que app.py.")
     st.stop()
